@@ -7,9 +7,6 @@ The resulting ISO will be SharpBang stretch.
 
 You must have (stretch) live-build installed to build these ISOs.
 
-**NOTE:** be sure to edit `auto/config` in each build directory,
-to set `--mirror-bootstrap` to a reliable fast local debian mirror for the build computer. This can save considerable build time. The built live system will still use the mirror set by `--mirror-binary`.
-
 Start the build in a new directory, empty except for copies of
 the `auto/` and `config/` directories (and their contents).
 
