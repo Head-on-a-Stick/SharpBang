@@ -30,8 +30,6 @@ Before starting:
 * Make sure any local .deb packages in `config/packages.{binary,chroot}` are for the correct architecture.
 * Update `auto/config`: `--image-name` with the latest version.
 * Append `-cd` if it is a CD ISO (this will inform bl-welcome). Do NOT add architecture (i386/amd64), it will be appended automatically.
-* Add a tag with the same version name (INCLUDING architecture)
-to the git tree, so the build config can be found later. This is important if you release the iso in public.
 
 To build, cd to the live-build root directory (*ie* with `auto/` and `config/`)
  and run:
