@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# recommends have been disabled in live-build, now restore
+rm -f /etc/apt/apt.conf.d/00recommends
+
+# add data to bunsen_install
+mkdir -p /etc/bunsen
+# The CD has already been unmounted so .disk/info is not available.
+echo "Disk info: $(sed -nr '/deb cdrom:/{s|^.*cdrom:\[([^]]*)]/.*$|\1|p;q}' /etc/apt/sources.list)" >> /etc/sharpbang/sharpbang_install
+echo "Install date: $(date --utc +%FT%T)" >> /etc/sharpbang/sharpbang_install

@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# SET --mirror-bootstrap TO YOUR FASTEST LOCAL MIRROR
+# It will reduce build time, but will not be used in the produced iso.
+
+# Set --image-name to the build version, *without* the architecture,
+# which will be appended automatically.
+
+lb config noauto \
+--image-name 'sharpbang-stretch' \
+--mirror-bootstrap https://cdn-aws.deb.debian.org/debian/ \
+--mirror-binary https://deb.debian.org/debian \
+--mirror-binary-security https://deb.debian.org/debian-security \
+--debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
+--apt-options "-y" \
+--apt-recommends false \
+--apt-source-archives false \
+--apt-indices true \
+--architectures amd64 -k amd64 \
+--distribution helium \
+--parent-distribution stretch \
+--archive-areas "main" \
+--clean \
+--debian-installer live \
+--debian-installer-gui true \
+--debian-installer-distribution stretch \
+--firmware-binary false \
+--firmware-chroot false \
+--iso-application BunsenLabs \
+--iso-publisher 'SharpBang GNU/Linux' \
+--iso-volume 'SHARPBANG_STRETCH' \
+--memtest memtest86+ \
+--security true \
+--updates true \
+"${@}"
