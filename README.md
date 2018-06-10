@@ -16,17 +16,17 @@ Before starting:
 * Check `isolinux/menu.cfg` as noted above.
 * Check build architecture:
   * For 64bit, in `auto/config`:
-```
---linux-flavours amd64 \
-```
+  ```
+  --linux-flavours amd64 \
+  ```
   * and 32bit:
-```
---linux-flavours 686-pae \
-```
+  ```
+  --linux-flavours 686-pae \
+  ```
   * and 32bit CD:
-```
---linux-flavours 586 \
-```
+  ```
+  --linux-flavours 586 \
+  ```
 * Make sure any local .deb packages in `config/packages.{binary,chroot}` are for the correct architecture.
 * Update `auto/config`: `--image-name` with the latest version.
 * Append `-cd` if it is a CD ISO (this will inform bl-welcome). Do NOT add architecture (i386/amd64), it will be appended automatically.
