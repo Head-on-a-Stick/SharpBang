@@ -15,15 +15,15 @@ Before starting:
 * Check `--mirror-bootstrap` as noted above.
 * Check `isolinux/menu.cfg` as noted above.
 * Check build architecture:
-   * For 64bit, in `auto/config`:
+  * For 64bit, in `auto/config`:
 ```
 --linux-flavours amd64 \
 ```
-   * and 32bit:
+  * and 32bit:
 ```
 --linux-flavours 686-pae \
 ```
-   * and 32bit CD:
+  * and 32bit CD:
 ```
 --linux-flavours 586 \
 ```
