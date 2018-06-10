@@ -1,9 +1,9 @@
 ## bunsen-live
 BunsenLabs live-build internals.
 
-This "helium-free" branch is for building in a Debian Stretch environment,
+This "sharpbang-live" branch is for building in a Debian stretch environment,
 *ie* with the newer versions of live-build and associated tools.
-The resulting ISO will be Debian stretch/BunsenLabs Helium.
+The resulting ISO will be SharpBang stretch.
 
 You must have (stretch) live-build installed to build these ISOs.
 
