@@ -17,15 +17,15 @@ Before starting:
 * Check build architecture:
    * For 64bit, in `auto/config`:
 ```
---architectures amd64 -k amd64 \
+--linux-flavours amd64 \
 ```
    * and 32bit:
 ```
---architectures i386 -k 686-pae \
+--linux-flavours 686-pae \
 ```
    * and 32bit CD:
 ```
---architectures i386 -k 586 \
+--linux-flavours 586 \
 ```
 * Make sure any local .deb packages in `config/packages.{binary,chroot}` are for the correct architecture.
 * Update `auto/config`: `--image-name` with the latest version.
