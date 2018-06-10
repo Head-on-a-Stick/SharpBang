@@ -1,5 +1,5 @@
 ## sharpbang-live
-SharpBanng live-build internals.
+SharpBang live-build internals.
 
 This "sharpbang-live" branch is for building in a Debian stretch environment,
 *ie* with the newer versions of live-build and associated tools.
