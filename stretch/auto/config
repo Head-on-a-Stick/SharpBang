@@ -16,7 +16,7 @@ lb config noauto \
 --apt-recommends false \
 --apt-source-archives false \
 --apt-indices true \
---architectures amd64 -k amd64 \
+--linux-flavours amd64 \
 --distribution helium \
 --parent-distribution stretch \
 --archive-areas "main" \
