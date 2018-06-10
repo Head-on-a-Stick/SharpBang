@@ -26,7 +26,7 @@ lb config noauto \
 --debian-installer-distribution stretch \
 --firmware-binary false \
 --firmware-chroot false \
---iso-application BunsenLabs \
+--iso-application SharpBang \
 --iso-publisher 'SharpBang GNU/Linux' \
 --iso-volume 'SHARPBANG_STRETCH' \
 --memtest memtest86+ \
