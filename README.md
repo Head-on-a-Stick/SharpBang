@@ -10,13 +10,6 @@ You must have (stretch) live-build installed to build these ISOs.
 **NOTE:** be sure to edit `auto/config` in each build directory,
 to set `--mirror-bootstrap` to a reliable fast local debian mirror for the build computer. This can save considerable build time. The built live system will still use the mirror set by `--mirror-binary`.
 
-**NOTE:** The system beep at the Live grub screen is caused by a bell code in the bootloader config file.
-Copy `/usr/share/live/build/bootloaders/isolinux` to `config/bootloaders/` and edit `config/bootloaders/isolinux/menu.cfg` in each build directory (line 4):
-```
-menu title Boot menu[BEL]
-```
-Take out that last character, this will prevent your ISOs from screeching a system beep when they boot.
-
 Start the build in a new directory, empty except for copies of
 the `auto/` and `config/` directories (and their contents).
 
