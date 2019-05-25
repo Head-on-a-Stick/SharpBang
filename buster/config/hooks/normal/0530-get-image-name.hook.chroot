@@ -1,0 +1,42 @@
+#!/bin/sh
+
+set -e
+
+# chroot hooks have access to the build config/ directory,
+# temporarily mounted on /live-build/config in the chroot.
+
+# The chroot filesystem has not yet been compressed at this stage.
+
+# script to get the name passed as --image-name,
+# and the configured architecture, to generate a version name
+# and write it in /etc/bunsen/bunsen_install
+
+echo "Running $0"
+
+srcfile='/live-build/config/build'
+
+targetfile='/etc/sharpbang/sharpbang_install'
+
+if ! [ -r "$srcfile" ]
+then
+    echo "${srcfile}: not readable" >&2
+    exit 0
+fi
+
+while read -r key value
+do
+    case "$key" in
+    Architecture:)
+        arch="$value"
+        ;;
+    Name:)
+        name="$value"
+        ;;
+    *)
+        continue
+        ;;
+    esac
+done < "$srcfile"
+
+echo "Version: ${name}-${arch}" >> "$targetfile"
+

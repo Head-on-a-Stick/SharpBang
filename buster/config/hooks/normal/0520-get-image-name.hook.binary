@@ -1,0 +1,38 @@
+#!/bin/sh
+
+set -e
+
+# (binary hooks are run in binary/ in live-build >= 5.0~a9-1
+#   but in lb root dir previously)
+
+# script to get version info from config/build and
+# write it to binary/bunsen_version so it is on the disk
+
+echo "Running $0"
+
+srcfile=../config/build
+
+targetfile=sharpbang_version
+
+if ! [ -r "$srcfile" ]
+then
+    echo "${srcfile}: not readable" >&2
+        exit 0
+fi
+
+while read -r key value
+do
+    case "$key" in
+    Architecture:)
+        arch="$value"
+        ;;
+    Name:)
+        name="$value"
+        ;;
+    *)
+        continue
+        ;;
+    esac
+done < "$srcfile"
+
+echo "${name}-${arch}" > "$targetfile"

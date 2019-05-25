@@ -1,0 +1,36 @@
+#!/bin/sh
+
+set -e
+
+## THIS VERSION FOR STRETCH BUILD ##
+# (binary hooks are run in binary/ in live-build >= 5.0~a9-1
+#   but in lb root dir previously)
+
+# script to ensure all packages in config/package-lists/*chroot_live
+# are in binary/live/filesystem.packages-remove
+
+# (Local .debs are otherwise omitted.)
+
+echo "Running $0"
+
+rmlist=live/filesystem.packages-remove
+
+if ! [ -w "$rmlist" ]
+then
+	exit 0
+fi
+
+for list in ../config/package-lists/*.list.chroot_live
+do
+	if [ -r "$list" ]
+	then
+		while read pkg rest
+		do
+			if [ -n "$pkg" ] && ! grep -q "$pkg" "$rmlist"
+			then
+				echo "$pkg" >> "$rmlist"
+				echo "$0: added $pkg to remove list"
+			fi
+		done < "$list"
+	fi
+done
