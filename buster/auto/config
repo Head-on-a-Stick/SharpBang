@@ -7,7 +7,7 @@
 # which will be appended automatically.
 
 lb config noauto \
---image-name 'sharpbang-stretch' \
+--image-name 'sharpbang-buster' \
 --mirror-bootstrap https://cdn-aws.deb.debian.org/debian/ \
 --mirror-binary https://deb.debian.org/debian \
 --mirror-binary-security https://deb.debian.org/debian-security \
@@ -17,8 +17,8 @@ lb config noauto \
 --apt-source-archives false \
 --apt-indices true \
 --linux-flavours amd64 \
---distribution helium \
---parent-distribution stretch \
+--distribution buster \
+--parent-distribution buster \
 --archive-areas "main" \
 --clean \
 --debian-installer live \
@@ -28,7 +28,7 @@ lb config noauto \
 --firmware-chroot false \
 --iso-application SharpBang \
 --iso-publisher 'SharpBang GNU/Linux' \
---iso-volume 'SHARPBANG_STRETCH' \
+--iso-volume 'SHARPBANG_BUSTER' \
 --memtest memtest86+ \
 --security true \
 --updates true \
