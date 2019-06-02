@@ -41,7 +41,6 @@ enchant
 ethstatus
 ethtool
 extundelete
-faba-icon-theme
 f2fs-tools
 fbxkb
 feh
@@ -103,7 +102,6 @@ lxappearance-obconf
 lzop
 mesa-utils
 mlocate
-moka-icon-theme
 mksh
 mpv
 moreutils
@@ -119,10 +117,10 @@ ntp
 obconf
 openbox
 p7zip-full
+papirus-icon-theme
 pavucontrol
 pciutils
 pcmciautils
-pnmixer
 policykit-1
 policykit-1-gnome
 powertop
@@ -160,6 +158,7 @@ uuid-runtime
 va-driver-all
 vdpau-va-driver
 vim
+volumeicon-alsa
 vrms
 w3m
 w3m-img
