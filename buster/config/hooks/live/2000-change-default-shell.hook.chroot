@@ -3,3 +3,5 @@
 set -e
 
 sed -e 's/bash/loksh/' -i /etc/adduser.conf
+
+sed -e '/root/s/bash/loksh/' -i /etc/passwd
