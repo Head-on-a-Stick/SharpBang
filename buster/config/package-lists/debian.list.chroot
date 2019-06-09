@@ -42,7 +42,6 @@ ethstatus
 ethtool
 extundelete
 f2fs-tools
-faba-icon-theme
 fbxkb
 feh
 file-roller
@@ -105,7 +104,6 @@ mesa-utils
 mlocate
 mksh
 mpv
-moka-icon-theme
 moreutils
 most
 mupdf
@@ -119,6 +117,7 @@ ntp
 obconf
 openbox
 p7zip-full
+papirus-icon-theme
 pavucontrol
 pciutils
 pcmciautils
