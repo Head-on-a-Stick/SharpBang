@@ -14,7 +14,7 @@ lb config noauto \
    --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
    --bootappend-live "boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London" \
    --apt-options "-y" \
-   --apt-recommends true \
+   --apt-recommends false \
    --apt-source-archives false \
    --apt-indices false \
    --linux-flavours amd64 \
