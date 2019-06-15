@@ -5,6 +5,7 @@ apt-transport-https
 apt-xapian-index
 aptitude
 arandr
+arch-install-scripts
 arj
 at-spi2-core
 bash-completion
@@ -104,6 +105,7 @@ mesa-utils
 mlocate
 mksh
 mpv
+mokutil
 moreutils
 most
 mupdf
@@ -133,6 +135,7 @@ rfkill
 rpl
 rsync
 rzip
+sbsigntool
 scrot
 smartmontools
 suckless-tools
@@ -145,6 +148,7 @@ tint2
 tmux
 transmission-gtk
 tumbler
+tzdata
 unace
 unalz
 unar
