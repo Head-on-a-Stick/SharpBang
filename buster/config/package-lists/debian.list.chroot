@@ -92,6 +92,7 @@ libinput-tools
 libpam-gnome-keyring
 libnotify-bin
 libqt5svg5
+libvirglrenderer0
 links2
 lm-sensors
 locales
