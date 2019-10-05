@@ -1,11 +1,11 @@
 ## sharpbang-live
 SharpBang live-build internals.
 
-This "sharpbang-live" branch is for building in a Debian stretch environment,
+This "sharpbang-live" branch is for building in a Debian buster environment,
 *ie* with the newer versions of live-build and associated tools.
-The resulting ISO will be SharpBang stretch.
+The resulting ISO will be SharpBang buster.
 
-You must have (stretch) live-build installed to build these ISOs.
+You must have (buster) live-build installed to build these ISOs.
 
 Start the build in a new directory, empty except for copies of
 the `auto/` and `config/` directories (and their contents).
@@ -29,7 +29,7 @@ Before starting:
   ```
 * Make sure any local .deb packages in `config/packages.{binary,chroot}` are for the correct architecture.
 * Update `auto/config`: `--image-name` with the latest version.
-* Append `-cd` if it is a CD ISO (this will inform bl-welcome). Do NOT add architecture (i386/amd64), it will be appended automatically.
+* Append `-cd` if it is a CD ISO. Do NOT add architecture (i386/amd64), it will be appended automatically.
 
 To build, cd to the live-build root directory (*ie* with `auto/` and `config/`)
  and run:
