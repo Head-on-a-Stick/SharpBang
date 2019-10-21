@@ -2,7 +2,7 @@
 
 SharpBang (♯!) is a live ISO image that can be used to install a pre-configured Openbox/Tint2 desktop running on Debian stable.
 
-The live-build system is used, just like the official Debian images. A full suite of rescue & recoery tools are included in the live environment and a rescue mode is accesible from the boot menu which can be used to open a shell in an installed system.
+The live-build system is used to create the ISO, just like the official Debian images. A full suite of rescue & recovery tools are included in the live environment and a rescue mode is accessible from the boot menu which can be used to open a shell in an installed system.
 
 Documentation: https://live-team.pages.debian.net/live-manual/
 
