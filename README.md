@@ -1,6 +1,8 @@
 ## SharpBang
 
-SharpBang (♯!) is a live ISO image that can be used to install a pre-configured Openbox/Tint2 desktop running on Debian stable. The live-build system is used, just like the official Debian images. A full suite of rescue & recoery tools are included in the live environment and a rescue mode is accesible from the boot menu which can be used to open a shell in an installed system.
+SharpBang (♯!) is a live ISO image that can be used to install a pre-configured Openbox/Tint2 desktop running on Debian stable.
+
+The live-build system is used, just like the official Debian images. A full suite of rescue & recoery tools are included in the live environment and a rescue mode is accesible from the boot menu which can be used to open a shell in an installed system.
 
 Documentation: https://live-team.pages.debian.net/live-manual/
 
@@ -16,7 +18,7 @@ Use `cp` to transfer the image to a USB stick:
 ```
 # cp sharpbang-buster.img /dev/sdX ; sync
 ```
-The installed system will be pure Debian 10 (buster) with no added repositories.
+The username for the live system is *user* and the password is *live*.
 
 ### Customising the image
 
