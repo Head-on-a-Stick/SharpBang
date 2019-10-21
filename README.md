@@ -1,45 +1,23 @@
-## sharpbang-live
-SharpBang live-build internals.
+## SharpBang
 
-This "sharpbang-live" branch is for building in a Debian buster environment,
-*ie* with the newer versions of live-build and associated tools.
-The resulting ISO will be SharpBang buster.
+SharpBang (♯!) is a live ISO image that can be used to install a pre-configured Openbox/Tint2 desktop running on Debian stable. The live-build system is used, just like the official Debian images. A full suite of rescue & recoery tools are included in the live environment and a rescue mode is accesible from the boot menu which can be used to open a shell in an installed system.
 
-You must have (buster) live-build installed to build these ISOs.
+Documentation: https://live-team.pages.debian.net/live-manual/
 
-Start the build in a new directory, empty except for copies of
-the `auto/` and `config/` directories (and their contents).
+### Build Instructions
 
-Before starting:
-* Make sure you have ~10GB of free disk space.
-* Check `--mirror-bootstrap` as noted above.
-* Check `isolinux/menu.cfg` as noted above.
-* Check build architecture:
-  * For 64bit, in `auto/config`:
-  ```
-  --linux-flavours amd64 \
-  ```
-  * and 32bit:
-  ```
-  --linux-flavours 686-pae \
-  ```
-  * and 32bit CD:
-  ```
-  --linux-flavours 586 \
-  ```
-* Make sure any local .deb packages in `config/packages.{binary,chroot}` are for the correct architecture.
-* Update `auto/config`: `--image-name` with the latest version.
-* Append `-cd` if it is a CD ISO. Do NOT add architecture (i386/amd64), it will be appended automatically.
-
-To build, cd to the live-build root directory (*ie* with `auto/` and `config/`)
- and run:
+Change into the **buster** directory then run:
 ```
-sudo lb clean --purge
+# lb clean --purge
 lb config
-sudo lb build
+# lb build
 ```
-or
+Use `cp` to transfer the image to a USB stick:
 ```
-sudo lb build --debug
+# cp sharpbang-buster.img /dev/sdX ; sync
 ```
-for a more detailed build.log
+The installed system will be pure Debian 10 (buster) with no added repositories.
+
+### Customising the image
+
+
