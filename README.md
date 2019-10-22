@@ -18,7 +18,7 @@ lb build
 ```
 Use `cp` to transfer the image to a USB stick:
 ```
-# cp sharpbang-buster.img /dev/sdX ; sync
+cp sharpbang-buster.img /dev/sdX ; sync
 ```
 The username for the live system is *user* and the password is *live*.
 
