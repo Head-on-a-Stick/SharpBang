@@ -36,7 +36,7 @@ GRUB is used for UEFI systems and isolinux is for non-UEFI systems. Both use con
 
 ### config/packages.chroot
 
-Contains .debs for any custom packages, the *sharp-configs* package contains the desktop configuration files & scripts and can be obtained from here:
+Contains .debs for any custom packages, the *sharp-configs* package provides the desktop configuration files & scripts and can be obtained from here:
 
 https://build.opensuse.org/package/show/home:Head_on_a_Stick:sharpbang/sharp-configs
 
