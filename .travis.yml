@@ -6,10 +6,11 @@ addons:
    apt:
       packages:
          - debootstrap
-         - live-build
 
 script:
+   - wget http://deb.debian.org/debian/pool/main/l/live-build/live-build_20190311_all.deb && sudo dpkg -i live-build_20190311_all.deb
    - cd buster
    - sudo lb clean --purge
+   - lb config
    - sudo lb build
 
