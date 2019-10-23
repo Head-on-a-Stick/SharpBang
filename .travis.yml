@@ -11,6 +11,6 @@ addons:
 script:
    - cd buster
    - sudo lb clean --purge
-   - sudo lb config
+   - lb config
    - sudo lb build
 
