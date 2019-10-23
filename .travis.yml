@@ -1,0 +1,14 @@
+language: minimal
+
+addons:
+   apt:
+      packages:
+         - debootstrap
+         - live-build
+
+script:
+   - cd buster
+   - sudo lb clean --purge
+   - sudo lb config
+   - sudo lb build
+
