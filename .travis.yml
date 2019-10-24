@@ -16,7 +16,7 @@ script:
 
 deploy:
    provider: releases
-   api_key: "GITHUB OAUTH TOKEN"
+   api_key: "869ef64f49c4009b3a9baf13aae36cddb023de8e"
    file: "sharpbang-buster-amd64.hybrid.iso"
    skip_cleanup: true
    on:
