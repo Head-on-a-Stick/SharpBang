@@ -46,10 +46,10 @@ The source can be downloaded from the repository then modified and rebuilt with 
 
 ## Pre-built x86 (i386 PAE) image
 
-https://drive.google.com/file/d/17WxMFXFbqV63irUD1-SdsKIuBiekFE8G/view?usp=sharing
+https://github.com/Head-on-a-Stick/SharpBang/releases/download/0.2.0%2B201910241801/sharpbang-buster-i386.hybrid.iso
 
 sha512sum:
 ```
-9570fabfd04e36b15800190161d75103f38efee475eef0ebeea53c6a44e32b4d72d6b1573306975e6e1b69898125c8166fb9744cddcbc6576ef1550b55eccf63
+0a27c87b4470ac8b3398a66b27f81a7c71a43275372dbc890d8e502f5c70f3a9724c02aac59a4ea30d76cdae0f8577b872d29b85c0c13eba3115f455f5772af9
 ```
 
