@@ -44,12 +44,12 @@ https://build.opensuse.org/package/show/home:Head_on_a_Stick:sharpbang/sharp-con
 
 The source can be downloaded from the repository then modified and rebuilt with `debuild -us -uc`.
 
-## Pre-built x86_64 (amd64) image
+## Pre-built x86 (i386 PAE) image
 
-https://drive.google.com/open?id=18XV6hIuIZw1uDR2hDS5Hg1Kj12WPAjtt
+https://drive.google.com/file/d/17WxMFXFbqV63irUD1-SdsKIuBiekFE8G/view?usp=sharing
 
 sha512sum:
 ```
-8dac29e0175cd0982624b81628822b6e2b00a1940b9d4d8ff9922e830cb13f1fa05bea29255f4f8840df1ef6ffa94db4229eb3605492e63524f65c0076090b76
+9570fabfd04e36b15800190161d75103f38efee475eef0ebeea53c6a44e32b4d72d6b1573306975e6e1b69898125c8166fb9744cddcbc6576ef1550b55eccf63
 ```
 
