@@ -12,7 +12,7 @@ script:
    - cd buster
    - sudo lb clean --purge
    - lb config
-   - sudo lb build
+   - travis_wait 30 sudo lb build
 
 deploy:
    provider: releases
