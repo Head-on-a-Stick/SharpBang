@@ -14,3 +14,11 @@ script:
    - lb config
    - sudo lb build
 
+deploy:
+   provider: releases
+   api_key: "GITHUB OAUTH TOKEN"
+   file: "sharpbang-buster-i386.hybrid.iso"
+   skip_cleanup: true
+   on:
+      tags: true
+
