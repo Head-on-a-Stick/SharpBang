@@ -17,7 +17,6 @@ lb config noauto \
    --apt-recommends false \
    --apt-source-archives false \
    --apt-indices false \
-   --linux-flavours amd64 \
    --distribution buster \
    --archive-areas "main contrib non-free" \
    --clean \
