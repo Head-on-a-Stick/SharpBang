@@ -10,7 +10,7 @@ The live-build system is used to create the ISO, just like the official Debian i
 
 Documentation: https://live-team.pages.debian.net/live-manual/
 
-## Build Instructions
+### Build Instructions
 
 Change into the **buster** directory then run:
 ```
@@ -24,19 +24,19 @@ cp sharpbang-buster.img /dev/sdX ; sync
 ```
 The username for the live system is *user* and the password is *live*.
 
-## Customising the Image
+### Customising the Image
 
 See the live-build documentation for detailed instructions.
 
-### auto/config
+#### auto/config
 
 This contains the general configuration options for creating the image.
 
-### config/bootloaders
+#### config/bootloaders
 
 GRUB is used for UEFI systems and isolinux is for non-UEFI systems. Both use config/bootloaders/isolinux/splash.png as the background image.
 
-### config/packages.chroot
+#### config/packages.chroot
 
 Contains .debs for any custom packages, the *sharp-configs* package provides the desktop configuration files & scripts and can be obtained from here:
 
@@ -46,7 +46,7 @@ The source can be downloaded from the repository then modified and rebuilt with 
 
 ## Pre-built x86_64 (amd64) image
 
-https://drive.google.com/open?id=18XV6hIuIZw1uDR2hDS5Hg1Kj12WPAjtt
+https://github.com/Head-on-a-Stick/SharpBang/releases/download/0.2.0%2B201910241703/sharpbang-buster-amd64.hybrid.iso
 
 sha512sum:
 ```
