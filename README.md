@@ -1,6 +1,6 @@
 # SharpBang
 
-[![Build Status](https://travis-ci.com/Head-on-a-Stick/SharpBang.svg?branch=master)](https://travis-ci.com/Head-on-a-Stick/SharpBang)
+[![Build Status](https://travis-ci.com/Head-on-a-Stick/SharpBang.svg?branch=i386)](https://travis-ci.com/Head-on-a-Stick/SharpBang)
 
 [![2019-10-22-191620-1024x768-scrot.png](https://i.postimg.cc/3wvjkRHv/2019-10-22-191620-1024x768-scrot.png)](https://postimg.cc/R3vJ8vhS)
 
