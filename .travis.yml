@@ -4,8 +4,7 @@ dist: bionic
 
 addons:
    apt:
-      packages:
-         - debootstrap
+      packages: debootstrap
 
 script:
    - wget http://deb.debian.org/debian/pool/main/l/live-build/live-build_20190311_all.deb && sudo dpkg -i live-build_20190311_all.deb
@@ -15,10 +14,16 @@ script:
    - travis_wait 30 sudo lb build
 
 deploy:
-   provider: releases
-   api_key: "$GITHUB_TOKEN"
-   file: "sharpbang-buster-amd64.hybrid.iso"
-   skip_cleanup: true
-   on:
-      tags: true
+   - provider: releases
+     api_key: "$GITHUB_TOKEN"
+     file: "sharpbang-buster-i386.hybrid.iso"
+     skip_cleanup: true
+     on:
+        tags: true
+   - provider: pages
+     api_key: "$GITHUB_TOKEN"
+     file: "sharpbang-buster-i386.hybrid.iso"
+     skip_cleanup: true
+     on:
+        tags: true
 
