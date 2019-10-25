@@ -14,15 +14,9 @@ script:
    - travis_wait 30 sudo lb build
 
 deploy:
-   - provider: releases
-     api_key: "$GITHUB_TOKEN"
-     file: "sharpbang-buster-i386.hybrid.iso"
-     skip_cleanup: true
-     on:
-        tags: true
-   - provider: pages
-     api_key: "$GITHUB_TOKEN"
-     file: "sharpbang-buster-i386.hybrid.iso"
-     skip_cleanup: true
-     on:
-        tags: true
+   provider: releases
+   api_key: "$GITHUB_TOKEN"
+   file: "sharpbang-buster-i386.hybrid.iso"
+   skip_cleanup: true
+   on:
+      tags: true
