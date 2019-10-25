@@ -16,13 +16,13 @@ script:
 deploy:
    - provider: releases
      api_key: "$GITHUB_TOKEN"
-     file: "sharpbang-buster-i386.hybrid.iso"
+     file: "sharpbang-buster-amd64.hybrid.iso"
      skip_cleanup: true
      on:
         tags: true
    - provider: pages
      api_key: "$GITHUB_TOKEN"
-     file: "sharpbang-buster-i386.hybrid.iso"
+     file: "sharpbang-buster-amd64.hybrid.iso"
      skip_cleanup: true
      on:
         tags: true
