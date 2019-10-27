@@ -46,10 +46,10 @@ The source can be downloaded from the repository then modified and rebuilt with 
 
 ## Pre-built x86_64 (amd64) image
 
-https://github.com/Head-on-a-Stick/SharpBang/releases/download/0.2.0%2B201910241703/sharpbang-buster-amd64.hybrid.iso
+https://github.com/Head-on-a-Stick/SharpBang/releases/download/0.3.0/sharpbang-buster-amd64.hybrid.iso
 
 sha512sum:
 ```
-900330a16267c7344e004a199afd5ad694c82225756038642cbc752adfba272591262f7aa05569f5028cf3a897c896eef96cdb2980ce7cf6c505337afee45a1e
+f9b888b18b0ae49e8c52152436f3fdfa2900cfd74f8a34703ae4aaa84444c8c34548872a16c8513bef42f3e3df27fee769da1829a0812a52ab210f200387b698
 ```
 
