@@ -1,4 +1,4 @@
-# SharpBang
+# SharpBang GNU/Linux
 
 [![Build Status](https://travis-ci.com/Head-on-a-Stick/SharpBang.svg?branch=master)](https://travis-ci.com/Head-on-a-Stick/SharpBang)
 
