@@ -28,5 +28,4 @@ lb config noauto \
    --iso-publisher 'SharpestBang GNU/Linux' \
    --iso-volume 'SHARPESTBANG' \
    --memtest memtest86+ \
-   --updates true \
    "${@}"
