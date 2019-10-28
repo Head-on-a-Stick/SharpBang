@@ -7,28 +7,26 @@
 # which will be appended automatically.
 
 lb config noauto \
-   --image-name 'sharpbang-buster-0.3.2' \
+   --image-name 'sharpestbang' \
    --mirror-bootstrap https://cdn-aws.deb.debian.org/debian/ \
    --mirror-binary https://deb.debian.org/debian \
-   --mirror-binary-security https://deb.debian.org/debian-security \
    --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
    --bootappend-live "boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London" \
    --apt-options "-y" \
    --apt-recommends false \
    --apt-source-archives false \
    --apt-indices false \
-   --distribution buster \
+   --distribution sid \
    --archive-areas "main contrib non-free" \
    --clean \
    --debian-installer live \
    --debian-installer-gui true \
-   --debian-installer-distribution buster \
+   --debian-installer-distribution sid \
    --firmware-binary true \
    --firmware-chroot true \
-   --iso-application SharpBang \
-   --iso-publisher 'SharpBang GNU/Linux' \
-   --iso-volume 'SHARPBANG_BUSTER' \
+   --iso-application SharpestBang \
+   --iso-publisher 'SharpestBang GNU/Linux' \
+   --iso-volume 'SHARPESTBANG' \
    --memtest memtest86+ \
-   --security true \
    --updates true \
    "${@}"
