@@ -8,7 +8,7 @@ addons:
 
 script:
    - wget http://deb.debian.org/debian/pool/main/l/live-build/live-build_20190311_all.deb && sudo dpkg -i live-build_20190311_all.deb
-   - cd buster
+   - cd sid
    - sudo lb clean --purge
    - lb config
    - travis_wait 30 sudo lb build
