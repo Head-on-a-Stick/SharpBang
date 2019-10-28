@@ -91,7 +91,6 @@ libinput-tools
 libpam-gnome-keyring
 libnotify-bin
 libqt5svg5
-libvirglrenderer0
 links2
 lm-sensors
 locales
@@ -102,6 +101,7 @@ lxappearance
 lxappearance-obconf
 lzop
 mesa-utils
+mesa-va-drivers
 mlocate
 mksh
 mpv
@@ -127,7 +127,6 @@ policykit-1
 policykit-1-gnome
 powertop
 pulseaudio
-python-keybinder
 python-notify
 python-xdg
 qt5-style-plugins
@@ -161,7 +160,6 @@ usbutils
 user-setup
 uuid-runtime
 va-driver-all
-vdpau-va-driver
 vim
 volumeicon-alsa
 vrms
