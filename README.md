@@ -40,9 +40,9 @@ GRUB is used for UEFI systems and isolinux is for non-UEFI systems. Both use con
 
 Contains .debs for any custom packages, the *sharp-configs* package provides the desktop configuration files & scripts and can be obtained from here:
 
-https://build.opensuse.org/package/show/home:Head_on_a_Stick:sharpbang/sharp-configs
+https://github.com/head-on-a-stick/sharp-configs
 
-The source can be downloaded from the repository then modified and rebuilt with `debuild -us -uc`.
+Clone the repository then modify the contents (`usr/share/sharpbang/skel/` contains the custom user configuration) and rebuild the package with `debuild -us -uc`.
 
 ## Pre-built x86_64 (amd64) image
 
