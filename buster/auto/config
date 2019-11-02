@@ -13,12 +13,11 @@ lb config noauto \
    --mirror-binary-security https://deb.debian.org/debian-security \
    --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
    --bootappend-live "boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London" \
-   --apt-options "-y" \
    --apt-recommends false \
    --apt-source-archives false \
-   --apt-indices false \
+   --apt-indices none \
    --architectures i386 \
-   --linux-flavours 686-pae \
+   --linux-flavours "686 686-pae" \
    --distribution buster \
    --archive-areas "main contrib non-free" \
    --clean \
@@ -33,4 +32,5 @@ lb config noauto \
    --memtest memtest86+ \
    --security true \
    --updates true \
+   --source true \
    "${@}"
