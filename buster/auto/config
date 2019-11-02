@@ -32,5 +32,4 @@ lb config noauto \
    --memtest memtest86+ \
    --security true \
    --updates true \
-   --source true \
    "${@}"
