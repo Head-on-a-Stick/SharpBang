@@ -45,7 +45,6 @@ extundelete
 f2fs-tools
 fbxkb
 feh
-file-roller
 firefox-esr
 firmware-linux
 fonts-noto
@@ -170,6 +169,7 @@ w3m
 w3m-img
 wireless-tools
 wpasupplicant
+xarchiver
 xdg-user-dirs
 xdg-utils
 xfburn
