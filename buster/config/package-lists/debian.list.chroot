@@ -57,7 +57,6 @@ fuse
 galculator
 galternatives
 gdebi
-geany
 geeqie
 gigolo
 gnome-keyring
@@ -108,6 +107,7 @@ mpv
 mokutil
 moreutils
 most
+mousepad
 mupdf
 mupdf-tools
 nftables
@@ -118,6 +118,7 @@ ntfs-3g
 obconf
 obmenu
 openbox
+openbox-menu
 p7zip-full
 papirus-icon-theme
 pavucontrol
