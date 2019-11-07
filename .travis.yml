@@ -16,7 +16,7 @@ script:
 deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
-   file: "sharpbang-buster-0.4.1-i386.hybrid.iso"
+   file: "sharpbang-buster-0.5.0-i386.hybrid.iso"
    skip_cleanup: true
    on:
       tags: true
