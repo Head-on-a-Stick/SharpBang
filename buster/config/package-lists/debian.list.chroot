@@ -38,6 +38,7 @@ e2fsprogs
 ed
 efibootmgr
 eject
+elementary-xfce-icon-theme
 enchant
 ethstatus
 ethtool
@@ -119,7 +120,6 @@ obmenu
 openbox
 openbox-menu
 p7zip-full
-papirus-icon-theme
 pavucontrol
 pciutils
 pcmciautils
