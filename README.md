@@ -44,12 +44,3 @@ https://github.com/head-on-a-stick/sharp-configs
 
 Clone the repository then modify the contents (`usr/share/sharpbang/skel/` contains the custom user configuration) and rebuild the package with `debuild -us -uc`.
 
-## Pre-built x86 (i386 PAE) image
-
-https://github.com/Head-on-a-Stick/SharpBang/releases/download/0.3.2+i386/sharpbang-buster-0.3.2-i386.hybrid.iso
-
-sha512sum:
-```
-f4097e716abfca8eac5d2bc324a2f757bb820dda4befcc488d520aa0818541628d7f50ec7934ab45ba83c9324f855b9d885110336f1961481bb79da862ae26e8
-```
-
