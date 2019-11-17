@@ -7,7 +7,7 @@
 # which will be appended automatically.
 
 lb config noauto \
-   --image-name 'sharpbang-buster-0.6.0' \
+   --image-name 'sharpbang-buster-10.2.0' \
    --mirror-bootstrap https://cdn-aws.deb.debian.org/debian/ \
    --mirror-binary https://deb.debian.org/debian \
    --mirror-binary-security https://deb.debian.org/debian-security \
