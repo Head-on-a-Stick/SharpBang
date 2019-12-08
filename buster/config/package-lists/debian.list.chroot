@@ -63,16 +63,6 @@ gnome-keyring
 gparted
 greybird-gtk-theme
 gsimplecal
-gstreamer1.0-libav
-gstreamer1.0-plugins-bad
-gstreamer1.0-plugins-base
-gstreamer1.0-plugins-good
-gstreamer1.0-plugins-ugly
-gstreamer1.0-pulseaudio
-gtk2-engines-pixbuf
-gvfs
-gvfs-backends
-gvfs-fuse
 haveged
 hardinfo
 hdparm
@@ -146,7 +136,6 @@ sudo
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
-thunar-volman
 tint2
 tmux
 transmission-gtk
@@ -180,10 +169,7 @@ xfsprogs
 xinput
 xorg
 xserver-xorg-input-all
-xserver-xorg-input-wacom
 xserver-xorg-video-all
-xserver-xorg-video-intel
-xserver-xorg-video-qxl
 xsel
 xterm
 xz-utils

@@ -18,7 +18,7 @@ deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
    file:
-      - "sharpbang-buster-10.2.0-i386.hybrid.iso"
+      - "sharpbang-buster-10.2.1-i386.hybrid.iso"
       - "sha512sum.i386"
    skip_cleanup: true
    on:
