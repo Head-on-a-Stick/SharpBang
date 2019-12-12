@@ -52,6 +52,7 @@ firmware-linux
 fonts-noto
 fonts-noto-mono
 fonts-noto-cjk
+fonts-inconsolata
 fonts-liberation
 ftp
 fuse
@@ -59,6 +60,7 @@ galculator
 galternatives
 gdebi
 gigolo
+gmrun
 gnome-keyring
 gparted
 greybird-gtk-theme
@@ -101,6 +103,8 @@ mousepad
 mtools
 mupdf
 mupdf-tools
+network-manager
+network-manager-gnome
 nftables
 nmap
 nwipe
