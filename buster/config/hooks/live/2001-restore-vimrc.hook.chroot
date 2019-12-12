@@ -1,7 +1,0 @@
-#!/bin/sh
-
-set -e
-
-mv /etc/vim/vimrc /etc/vim/vimrc.grml
-
-cp /etc/vim/vimrc.original /etc/vim/vimrc
