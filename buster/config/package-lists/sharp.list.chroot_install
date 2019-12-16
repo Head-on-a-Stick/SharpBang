@@ -128,6 +128,7 @@ mokutil
 moreutils
 most
 mousepad
+mpv
 mtools
 mtr-tiny
 mupdf
@@ -194,7 +195,6 @@ user-setup
 uuid-runtime
 va-driver-all
 vdpau-va-driver
-vlc
 vim
 volumeicon-alsa
 vrms

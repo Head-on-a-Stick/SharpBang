@@ -33,9 +33,6 @@ hfsutils
 isolinux
 jfsutils
 lilo
-live-boot
-live-config
-live-config-systemd
 memtest86+
 memtester
 ndisc6
