@@ -11,7 +11,7 @@ script:
    - cd buster
    - sudo lb clean --purge
    - lb config
-   - travis_wait 30 sudo lb build
+   - travis_wait 60 sudo lb build
    - sha512sum sharpbang-buster-*.hybrid.iso > sha512sum.amd64
 
 deploy:
