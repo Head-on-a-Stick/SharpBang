@@ -25,14 +25,9 @@ f2fs-tools
 flashrom
 gddrescue
 glusterfs-common
-grub-pc-bin
-grub-efi-amd64-bin
-grub-efi-ia32-bin
 hfsprogs
 hfsutils
-isolinux
 jfsutils
-lilo
 memtest86+
 memtester
 ndisc6
