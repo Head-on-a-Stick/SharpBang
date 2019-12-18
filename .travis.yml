@@ -12,14 +12,14 @@ script:
    - sudo lb clean --purge
    - lb config
    - travis_wait 30 sudo lb build
-   - sha512sum sharpbang-buster-*.hybrid.iso > sha512sum.amd64
+   - sha512sum sharpbang-buster-*.hybrid.iso > sha512sum.i386
 
 deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
    file: 
-      - "sharpbang-buster-10.2.4-amd64.hybrid.iso"
-      - "sha512sum.amd64"
+      - "sharpbang-buster-10.2.4-i386.hybrid.iso"
+      - "sha512sum.i386"
    skip_cleanup: true
    on:
       tags: true
