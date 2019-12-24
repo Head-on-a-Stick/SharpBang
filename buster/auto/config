@@ -16,7 +16,7 @@ lb config noauto \
    --apt-source-archives 'false' \
    --apt-indices 'false' \
    --architectures 'i386' \
-   --linux-flavours '686-pae 686' \
+   --linux-flavours '686-pae' \
    --distribution 'buster' \
    --archive-areas 'main contrib non-free' \
    --clean \
