@@ -20,6 +20,7 @@ beep
 binfmt-support
 binwalk
 bonnie++
+boot-info-script
 brltty
 buffer
 busybox-static
@@ -159,6 +160,7 @@ python-notify
 python-xdg
 pwgen
 qt5-style-plugins
+qemu-guest-agent
 ranger
 rfkill
 rpl
@@ -170,6 +172,7 @@ sdparm
 slurm
 smartmontools
 spice-vdagent
+spice-webdavd
 sysfsutils
 sysstat
 suckless-tools

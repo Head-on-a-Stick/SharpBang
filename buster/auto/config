@@ -7,29 +7,29 @@
 # which will be appended automatically.
 
 lb config noauto \
-   --image-name 'sharpbang-buster-10.2.4' \
-   --mirror-bootstrap https://cdn-aws.deb.debian.org/debian/ \
-   --mirror-binary https://deb.debian.org/debian \
-   --mirror-binary-security https://deb.debian.org/debian-security \
+   --image-name 'sharpbang-buster-10.2.5' \
+   --mirror-bootstrap 'https://cdn-aws.deb.debian.org/debian' \
+   --mirror-binary 'https://deb.debian.org/debian' \
+   --mirror-binary-security 'https://deb.debian.org/debian-security' \
    --debootstrap-options '--include=apt-transport-https,ca-certificates,openssl' \
    --bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
-   --apt-recommends true \
-   --apt-source-archives false \
-   --apt-indices false \
+   --apt-recommends 'true' \
+   --apt-source-archives 'false' \
+   --apt-indices 'false' \
    --architectures 'i386' \
    --linux-flavours '686-pae 686' \
    --distribution 'buster' \
    --archive-areas 'main contrib non-free' \
    --clean \
-   --debian-installer live \
-   --debian-installer-gui true \
-   --debian-installer-distribution buster \
-   --firmware-binary true \
-   --firmware-chroot true \
-   --iso-application SharpBang \
+   --debian-installer 'live' \
+   --debian-installer-gui 'true' \
+   --debian-installer-distribution 'buster' \
+   --firmware-binary 'true' \
+   --firmware-chroot 'true' \
+   --iso-application 'SharpBang' \
    --iso-publisher 'SharpBang GNU/Linux' \
    --iso-volume 'SHARPBANG_BUSTER' \
-   --memtest memtest86+ \
-   --security true \
-   --updates true \
+   --memtest 'memtest86+' \
+   --security 'true' \
+   --updates 'true' \
    "${@}"
