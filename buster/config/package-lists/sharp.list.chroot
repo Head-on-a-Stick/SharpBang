@@ -19,7 +19,6 @@ bcache-tools
 beep
 binfmt-support
 binwalk
-bonnie++
 boot-info-script
 brltty
 buffer
@@ -55,7 +54,6 @@ fbxkb
 facter
 feh
 ffmpeg
-fio
 firefox-esr
 firmware-linux
 fizsh
@@ -93,14 +91,12 @@ hwinfo
 iftop
 iotop
 iperf
-iptraf-ng
 iptstate
 irqbalance
 irssi
 kbd
 keyutils
 less
-lftp
 libinput-tools
 libpam-gnome-keyring
 libnotify-bin
@@ -130,7 +126,6 @@ most
 mousepad
 mpv
 mtools
-mtr-tiny
 mupdf
 mupdf-tools
 ncdu
@@ -220,7 +215,6 @@ xsel
 xterm
 xz-utils
 yad
-zerofree
 zip
 zile
 zsh
