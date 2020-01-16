@@ -17,6 +17,7 @@ lb config noauto \
    --apt-indices 'false' \
    --distribution 'buster' \
    --archive-areas 'main contrib non-free' \
+   --architectures 'i386' \
    --clean \
    --debian-installer 'live' \
    --debian-installer-gui 'true' \
