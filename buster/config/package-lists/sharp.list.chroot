@@ -92,7 +92,6 @@ iftop
 iotop
 iperf
 iptstate
-irqbalance
 irssi
 kbd
 keyutils
@@ -209,6 +208,7 @@ xfce4-power-manager
 xfsprogs
 xinput
 xorg
+xscreensaver
 xserver-xorg-input-all
 xserver-xorg-video-all
 xsel
