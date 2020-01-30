@@ -200,6 +200,7 @@ wakeonlan
 wireless-tools
 wpasupplicant
 xarchiver
+xautolock
 xdg-user-dirs
 xdg-utils
 xfburn
@@ -208,7 +209,6 @@ xfce4-power-manager
 xfsprogs
 xinput
 xorg
-xscreensaver
 xserver-xorg-input-all
 xserver-xorg-video-all
 xsel
