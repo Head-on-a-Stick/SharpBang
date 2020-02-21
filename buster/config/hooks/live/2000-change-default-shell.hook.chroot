@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-sed -e 's/bash/mksh/' -i /etc/adduser.conf
-
-sed -e '/root/s/bash/mksh/' -i /etc/passwd
-
-cp /etc/skel/.mkshrc /root
