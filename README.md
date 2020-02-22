@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.com/Head-on-a-Stick/SharpBang.svg?branch=master)](https://travis-ci.com/Head-on-a-Stick/SharpBang)
 
-[![2019-11-08-182445-1600x900-scrot.png](https://i.postimg.cc/mgm9t37H/2019-11-08-182445-1600x900-scrot.png)](https://postimg.cc/TKW1sD7d)
+[![scrot.png](https://head-on-a-stick.github.io/scrot.png)](https://scrot.png)
 
 SharpBang (♯!) is a live ISO image that can be used to install a pre-configured Openbox/Tint2 desktop running on Debian stable.
 
-The live-build system is used to create the ISO, just like the official Debian images. A full suite of rescue & recovery tools are included in the live environment and a rescue mode is accessible from the boot menu which can be used to open a shell in an installed system.
+The live-build system is used to create the ISO, just like the official Debian images, and a rescue mode is accessible from the boot menu which can be used to open a shell in an installed system.
 
 Documentation: https://live-team.pages.debian.net/live-manual/
 
