@@ -16,7 +16,6 @@ fonts-noto-cjk
 fonts-inconsolata
 fonts-liberation
 galculator
-galternatives
 gdebi
 gmrun
 gnome-keyring
@@ -24,9 +23,7 @@ gpart
 gparted
 greybird-gtk-theme
 gsimplecal
-gtk3-nocsd
 gvfs-backends
-gvfs-fuse
 htop
 libqt5svg5
 lxappearance
@@ -37,6 +34,7 @@ mksh
 most
 mousepad
 mpv
+mtools
 mupdf
 mupdf-tools
 network-manager
@@ -59,7 +57,6 @@ thunar-media-tags-plugin
 tint2
 transmission-gtk
 tumbler
-tzdata
 usb-modeswitch
 va-driver-all
 vdpau-driver-all
@@ -73,7 +70,6 @@ wpasupplicant
 xarchiver
 xautolock
 xdg-user-dirs
-xfburn
 xfce4-notifyd
 xfce4-power-manager
 xorg
