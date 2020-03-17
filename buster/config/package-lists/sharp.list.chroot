@@ -50,6 +50,7 @@ python-xdg
 qt5-style-plugins
 ranger
 rfkill
+rsync
 suckless-tools
 thunar
 thunar-archive-plugin
