@@ -7,15 +7,14 @@
 # which will be appended automatically.
 
 lb config noauto \
-   --image-name 'sharpbang-buster-10.3.3' \
+   --image-name 'sharpbang-buster-10.3.4' \
    --mirror-bootstrap 'https://deb.debian.org/debian' \
    --mirror-binary 'https://deb.debian.org/debian' \
    --mirror-binary-security 'https://deb.debian.org/debian-security' \
-   --debootstrap-options '--include=apt-transport-https,ca-certificates,openssl' \
+   --debootstrap-options '--include=ca-certificates,openssl' \
    --bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
    --apt-source-archives 'false' \
    --apt-indices 'false' \
-   --architecture 'i386' \
    --distribution 'buster' \
    --archive-areas 'main contrib non-free' \
    --clean \
