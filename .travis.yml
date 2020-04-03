@@ -12,7 +12,7 @@ script:
    - sudo lb clean --purge
    - lb config
    - travis_wait 30 sudo lb build
-   - sha512sum sharpbang-buster-*.hybrid.iso > sha512sum.amd64
+   - sha512sum sharpbang-sid-*.hybrid.iso > sha512sum.amd64
 
 deploy:
    provider: releases
