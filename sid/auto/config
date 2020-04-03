@@ -13,19 +13,16 @@ lb config noauto \
    --bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
    --clean \
    --debian-installer 'live' \
-   --debian-installer-distribution 'buster' \
-   --distribution 'buster' \
+   --debian-installer-distribution 'daily' \
+   --distribution 'sid' \
    --firmware-binary 'true' \
    --firmware-chroot 'true' \
-   --image-name 'sharpbang-buster-10.3.5' \
+   --image-name 'sharpbang-sid-20200403' \
    --iso-application 'SharpBang' \
    --iso-publisher 'SharpBang GNU/Linux' \
-   --iso-volume 'SHARPBANG_BUSTER' \
+   --iso-volume 'SHARPBANG_SID' \
    --mirror-binary 'https://deb.debian.org/debian' \
-   --mirror-binary-security 'https://deb.debian.org/debian-security' \
    --mirror-bootstrap 'https://deb.debian.org/debian' \
    --quiet \
-   --security 'true' \
    --system 'live' \
-   --updates 'true' \
    "${@}"

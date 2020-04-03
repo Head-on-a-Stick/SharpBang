@@ -34,13 +34,11 @@ mupdf-tools
 network-manager
 network-manager-gnome
 obconf
-obmenu
 openbox
 openbox-menu
 pavucontrol
 pulseaudio
 python
-python-xdg
 qt5-style-plugins
 ranger
 rfkill
@@ -56,7 +54,7 @@ tumbler
 usb-modeswitch
 va-driver-all
 vdpau-driver-all
-vdpau-va-driver
+mesa-va-drivers
 vim
 volumeicon-alsa
 w3m
