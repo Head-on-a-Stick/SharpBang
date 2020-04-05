@@ -10,7 +10,6 @@ fbxkb
 feh
 firefox-esr
 fonts-inconsolata
-fonts-liberation
 galculator
 gdebi
 gmrun
@@ -39,12 +38,9 @@ openbox
 openbox-menu
 pavucontrol
 pulseaudio
-python
-python-xdg
 qt5-style-plugins
 ranger
 rfkill
-rsync
 suckless-tools
 thunar
 thunar-archive-plugin
@@ -59,7 +55,6 @@ vdpau-driver-all
 vdpau-va-driver
 vim
 volumeicon-alsa
-w3m
 w3m-img
 wireless-tools
 wpasupplicant

@@ -17,7 +17,7 @@ lb config noauto \
    --distribution 'buster' \
    --firmware-binary 'true' \
    --firmware-chroot 'true' \
-   --image-name 'sharpbang-buster-10.3.5' \
+   --image-name 'sharpbang-buster-10.3.6' \
    --iso-application 'SharpBang' \
    --iso-publisher 'SharpBang GNU/Linux' \
    --iso-volume 'SHARPBANG_BUSTER' \
