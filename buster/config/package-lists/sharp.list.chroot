@@ -1,4 +1,3 @@
-aptitude
 arandr
 bash-completion
 busybox-static
@@ -37,6 +36,7 @@ obmenu
 openbox
 openbox-menu
 pavucontrol
+pciutils
 pulseaudio
 qt5-style-plugins
 ranger
