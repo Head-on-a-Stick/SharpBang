@@ -38,6 +38,7 @@ openbox-menu
 pavucontrol
 pciutils
 pulseaudio
+python-xdg
 qt5-style-plugins
 ranger
 rfkill
