@@ -18,6 +18,7 @@ greybird-gtk-theme
 gsimplecal
 gvfs-backends
 htop
+libexo-1-0
 lxappearance
 lxappearance-obconf
 menu
@@ -26,7 +27,6 @@ mksh
 most
 mousepad
 mpv
-mtools
 mupdf
 mupdf-tools
 network-manager
