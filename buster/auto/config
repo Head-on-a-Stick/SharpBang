@@ -10,7 +10,6 @@ lb config noauto \
    --apt-source-archives 'false' \
    --apt-indices 'false' \
    --archive-areas 'main contrib non-free' \
-   --architectures 'i386' \
    --bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
    --clean \
    --debian-installer 'live' \
@@ -18,7 +17,7 @@ lb config noauto \
    --distribution 'buster' \
    --firmware-binary 'true' \
    --firmware-chroot 'true' \
-   --image-name 'sharpbang-buster-10.4.1' \
+   --image-name 'sharpbang-buster-10.4.2' \
    --iso-application 'SharpBang' \
    --iso-publisher 'SharpBang GNU/Linux' \
    --iso-volume 'SHARPBANG_BUSTER' \
