@@ -43,6 +43,7 @@ python-xdg
 qt5-style-plugins
 ranger
 rfkill
+synaptic
 suckless-tools
 thunar
 thunar-archive-plugin
@@ -65,4 +66,5 @@ xautolock
 xdg-user-dirs
 xfce4-notifyd
 xfce4-power-manager
+xinput
 xorg
