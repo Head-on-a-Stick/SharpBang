@@ -20,6 +20,7 @@ gsimplecal
 gvfs-backends
 htop
 libexo-1-0
+linux-image-amd64/buster-backports
 lxappearance
 lxappearance-obconf
 menu

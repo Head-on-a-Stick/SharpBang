@@ -9,8 +9,8 @@
 lb config noauto \
    --apt-source-archives 'false' \
    --apt-indices 'false' \
-	--architectures 'i386' \
    --archive-areas 'main contrib non-free' \
+	--backports 'true' \
    --bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
    --clean \
    --debian-installer 'live' \
@@ -18,10 +18,10 @@ lb config noauto \
    --distribution 'buster' \
    --firmware-binary 'true' \
    --firmware-chroot 'true' \
-   --image-name 'sharpbang-buster-10.4.5' \
+   --image-name 'sharpbang-buster-backports-20200726' \
    --iso-application 'SharpBang' \
    --iso-publisher 'SharpBang GNU/Linux' \
-   --iso-volume 'SHARPBANG_BUSTER' \
+   --iso-volume 'SHARPBANG_BUSTER_BACKPORTS' \
    --mirror-binary 'https://deb.debian.org/debian' \
    --mirror-binary-security 'https://deb.debian.org/debian-security' \
    --mirror-bootstrap 'https://deb.debian.org/debian' \
