@@ -16,8 +16,6 @@ lb config noauto \
    --debian-installer 'live' \
    --debian-installer-distribution 'buster' \
    --distribution 'buster' \
-   --firmware-binary 'true' \
-   --firmware-chroot 'true' \
    --image-name 'sharpbang-buster-backports-20200726' \
    --iso-application 'SharpBang' \
    --iso-publisher 'SharpBang GNU/Linux' \
