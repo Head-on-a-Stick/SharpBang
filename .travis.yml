@@ -18,7 +18,7 @@ deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
    file: 
-      - "sharpbang-buster-backports-20200916-amd64.hybrid.iso"
+      - "sharpbang-buster-backports-20200917-amd64.hybrid.iso"
       - "sha512sum.amd64"
    skip_cleanup: true
    on:

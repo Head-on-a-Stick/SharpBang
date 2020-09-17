@@ -87,6 +87,7 @@ firmware-intel-sound/buster-backports
 firmware-intelwimax/buster-backports
 firmware-iwlwifi/buster-backports
 firmware-libertas/buster-backports
+firmware-linux/buster-backports
 firmware-linux-nonfree/buster-backports
 firmware-misc-nonfree/buster-backports
 firmware-myricom/buster-backports
