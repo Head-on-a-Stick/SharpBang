@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/Head-on-a-Stick/SharpBang.svg?branch=master)](https://travis-ci.com/Head-on-a-Stick/SharpBang)
 
-[![scrot.png](https://head-on-a-stick.github.io/scrot.png)](https://head-on-a-stick.github.io/scrot.png)
+[![scrot.png](https://head-on-a-stick.github.io/scrot.png)](https://head-on-a-stick.github.io/scrot.webp)
 
 SharpBang (♯!) is a live ISO image that can be used to install a pre-configured Openbox/Tint2 desktop running on Debian stable.
 
