@@ -42,5 +42,5 @@ Contains .debs for any custom packages, the *sharp-configs* package provides the
 
 https://github.com/head-on-a-stick/sharp-configs
 
-Clone the repository then modify the contents (`usr/share/sharpbang/skel/` contains the custom user configuration) and rebuild the package with `debuild -us -uc`.
+Clone the repository then modify the contents (`usr/share/sharpbang/skel/` contains the custom user configuration) and rebuild the package with `debuild -us -uc`
 
