@@ -7,25 +7,26 @@
 # which will be appended automatically.
 
 lb config noauto \
-   --apt-source-archives 'false' \
-   --apt-indices 'false' \
-   --archive-areas 'main contrib non-free' \
-   --bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
-   --clean \
-   --debian-installer 'live' \
-   --debian-installer-distribution 'buster' \
-   --distribution 'buster' \
-   --firmware-binary 'true' \
-   --firmware-chroot 'true' \
-   --image-name 'sharpbang-buster-10.10.0' \
-   --iso-application 'SharpBang' \
-   --iso-publisher 'SharpBang GNU/Linux' \
-   --iso-volume 'SHARPBANG_BUSTER' \
-   --mirror-binary 'https://deb.debian.org/debian' \
-   --mirror-binary-security 'https://deb.debian.org/debian-security' \
-   --mirror-bootstrap 'https://deb.debian.org/debian' \
-   --quiet \
-   --security 'true' \
-   --system 'live' \
-   --updates 'true' \
-   "${@}"
+	--apt-source-archives 'false' \
+	--apt-indices 'false' \
+	--archive-areas 'main contrib non-free' \
+	--architecture 'i386' \
+	--bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
+	--clean \
+	--debian-installer 'live' \
+	--debian-installer-distribution 'buster' \
+	--distribution 'buster' \
+	--firmware-binary 'true' \
+	--firmware-chroot 'true' \
+	--image-name 'sharpbang-buster-10.10.0' \
+	--iso-application 'SharpBang' \
+	--iso-publisher 'SharpBang GNU/Linux' \
+	--iso-volume 'SHARPBANG_BUSTER' \
+	--mirror-binary 'https://deb.debian.org/debian' \
+	--mirror-binary-security 'https://deb.debian.org/debian-security' \
+	--mirror-bootstrap 'https://deb.debian.org/debian' \
+	--quiet \
+	--security 'true' \
+	--system 'live' \
+	--updates 'true' \
+	"${@}"
