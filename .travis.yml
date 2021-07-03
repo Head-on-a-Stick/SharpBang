@@ -7,7 +7,7 @@ before_install:
   - docker run debian /bin/sh -c "apt update && apt install -y live-build"
   - docker cp buster debian:buster
   - docker run debian /bin/sh -c "cd /buster && lb build"
-  - docker cp debian:/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso sha512sum.amd64 .
+  - docker cp debian:/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso debian:/buster/sha512sum.amd64 /
 
 script: lb build
 
@@ -15,8 +15,8 @@ deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
    file: 
-      - "sharpbang-buster-10.10.0-amd64.hybrid.iso"
-      - "sha512sum.amd64"
+      - "/sharpbang-buster-10.10.0-amd64.hybrid.iso"
+      - "/sha512sum.amd64"
    skip_cleanup: true
    on:
       tags: true
