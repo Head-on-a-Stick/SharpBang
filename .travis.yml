@@ -3,11 +3,11 @@ language: minimal
 services: docker
 
 before_install:
-  - docker pull debian
-  - docker run debian /bin/sh -c "apt update && apt install -y live-build"
-  - docker cp buster debian:/tmp/
-  - docker run debian /bin/sh -c "cd /tmp/buster && lb build"
-  - docker cp debian:/tmp/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso /tmp/debian:/buster/sha512sum.amd64 /
+  - docker pull debian:stable-slim
+  - docker run debian:stable-slim /bin/sh -c "apt update && apt install -y live-build git"
+  - docker run debian:stable-slim /bin/sh -c "git clone https://github.com/head-on-a-stick/sharpbang"
+  - docker run debian:stable-slim /bin/sh -c "cd sharpbang/buster && lb build"
+  - docker cp debian:sharpbang/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso debian:sharpbang/buster/sha512sum.amd64 /
 
 script: lb build
 
