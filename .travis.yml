@@ -5,10 +5,9 @@ services: docker
 before_install:
   - docker pull debian
   - docker run debian /bin/sh -c "apt update && apt install -y live-build"
-  - docker run debian /bin/sh -c "mkdir /iso"
-  - docker cp buster debian:/iso/
-  - docker run debian /bin/sh -c "cd /iso/buster && lb build"
-  - docker cp debian:/iso/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso /iso/debian:/buster/sha512sum.amd64 /
+  - docker cp buster debian:/tmp/
+  - docker run debian /bin/sh -c "cd /tmp/buster && lb build"
+  - docker cp debian:/tmp/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso /tmp/debian:/buster/sha512sum.amd64 /
 
 script: lb build
 
