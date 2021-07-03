@@ -10,7 +10,6 @@ lb config noauto \
 	--apt-source-archives 'false' \
 	--apt-indices 'false' \
 	--archive-areas 'main contrib non-free' \
-	--architecture 'i386' \
 	--bootappend-live 'boot=live components locales=en_GB.UTF-8 keyboard-layouts=gb timezone=Europe/London' \
 	--clean \
 	--debian-installer 'live' \

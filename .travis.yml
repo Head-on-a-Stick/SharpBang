@@ -1,25 +1,22 @@
 language: minimal
 
-dist: bionic
+services: docker
 
-addons:
-   apt:
-      packages: debootstrap
+before_install:
+  - docker pull debian
+  - docker run debian /bin/sh -c "apt update && apt install -y live-build"
+  - docker cp buster debian:buster
+  - docker run debian /bin/sh -c "cd /buster && lb build"
+  - docker cp debian:/buster/sharpbang-buster-10.10.0-amd64.hybrid.iso sha512sum.amd64 .
 
-script:
-   - wget http://deb.debian.org/debian/pool/main/l/live-build/live-build_20190311_all.deb && sudo dpkg -i live-build_20190311_all.deb
-   - cd buster
-   - sudo lb clean --purge
-   - lb config
-   - travis_wait 30 sudo lb build
-   - sha512sum sharpbang-buster-*.hybrid.iso > sha512sum.i386
+script: lb build
 
 deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
    file: 
-      - "sharpbang-buster-10.10.0-i386.hybrid.iso"
-      - "sha512sum.i386"
+      - "sharpbang-buster-10.10.0-amd64.hybrid.iso"
+      - "sha512sum.amd64"
    skip_cleanup: true
    on:
       tags: true
